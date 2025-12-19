@@ -32,23 +32,20 @@ The analysis is built on a **star schema** consisting of:
 
 ## 📂 Repository Structure
 
-sql_exploratory_data_analysis_project/
-│
-├─ data/
-│ ├─ dim_customers.csv
-│ ├─ dim_products.csv
-│ └─ fact_sales.csv
-│
-├─ sql_scripts/
-│ ├─ database_exploration.sql
-│ ├─ dimension_exploration.sql
-│ ├─ date_exploration.sql
-│ ├─ measure_exploration.sql
-│ ├─ magnitude_analysis.sql
-│ └─ ranking_analysis.sql
-│
-└─ README.md
+- **datasets**
+  - [dim_customers.csv](datasets/dim_customers.csv)
+  - [dim_products.csv](datasets/dim_products.csv)
+  - [fact_sales.csv](datasets/fact_sales.csv)
 
+- **scripts**
+  - [database_exploration.sql](scripts/database_exploration.sql)
+  - [dimension_exploration.sql](scripts/dimension_exploration.sql)
+  - [date_exploration.sql](scripts/date_exploration.sql)
+  - [measure_exploration.sql](scripts/measure_exploration.sql)
+  - [magnitude_analysis.sql](scripts/magnitude_analysis.sql)
+  - [ranking_analysis.sql](scripts/ranking_analysis.sql)
+
+- [README.md](README.md)
 
 ---
 
