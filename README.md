@@ -28,6 +28,8 @@ The analysis is built on a **star schema** consisting of:
 - **dim_products** – Product and category details  
 - **fact_sales** – Transaction-level sales data  
 
+- ![Gold Layer Sales Star Schema Model](docs/Gold_Layer_Sales_Star_Schema_Model.png)
+
 ---
 
 ## 📂 Repository Structure
@@ -44,6 +46,9 @@ The analysis is built on a **star schema** consisting of:
   - [measure_exploration.sql](scripts/measure_exploration.sql)
   - [magnitude_analysis.sql](scripts/magnitude_analysis.sql)
   - [ranking_analysis.sql](scripts/ranking_analysis.sql)
+
+- **docs**
+  - ![Gold Layer Sales Star Schema Model](docs/Gold_Layer_Sales_Star_Schema_Model.png)
 
 - [README.md](README.md)
 
