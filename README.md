@@ -48,7 +48,7 @@ The analysis is built on a **star schema** consisting of:
   - [ranking_analysis.sql](scripts/ranking_analysis.sql)
 
 - **docs**
-  - ![Gold Layer Sales Star Schema Model](docs/Gold_Layer_Sales_Star_Schema_Model.png)
+  - [Gold Layer Sales Star Schema Model](docs/Gold_Layer_Sales_Star_Schema_Model.png)
 
 - [README.md](README.md)
 
