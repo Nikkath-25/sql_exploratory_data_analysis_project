@@ -12,9 +12,9 @@ It is designed as a **portfolio project** to demonstrate practical SQL analytics
 This project involves:
 
 1. **Database Exploration** – Understanding tables, columns, and schema structure.
-2. **Dimension Analysis** – Exploring customer and product attributes.
-3. **Date Analysis** – Identifying data boundaries and customer age distribution.
-4. **Measure Analysis** – Calculating key business metrics.
+2. **Dimension Exploration** – Exploring customer and product attributes.
+3. **Date Exploration** – Identifying data boundaries and customer age distribution.
+4. **Measure Exploration** – Calculating key business metrics.
 5. **Magnitude Analysis** – Comparing metrics across dimensions.
 6. **Ranking Analysis** – Identifying top and bottom performers.
 
