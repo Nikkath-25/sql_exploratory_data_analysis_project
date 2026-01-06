@@ -43,7 +43,7 @@ order by average_cost DESC;
 
 -- What is the total revenue generated for each category?
 
-select 
+select
 p.category,
 sum(f.sales_amount) as total_revenue
 from gold_layer.fact_sales f
