@@ -17,6 +17,11 @@ This project involves:
 4. **Measure Exploration** – Calculating key business metrics.
 5. **Magnitude Analysis** – Comparing metrics across dimensions.
 6. **Ranking Analysis** – Identifying top and bottom performers.
+7. **Change-Over-Time Analysis** – Analyzing trends and seasonality in sales
+8. **Cumulative Analysis** – Evaluating business growth using running totals
+9. **Performance Analysis** – Comparing current performance against averages and prior periods
+10. **Part-to-Whole Analysis** – Measuring category contribution to overall sales
+11. **Data Segmentation** – Segmenting customers and products based on behavior and value
 
 ---
 
@@ -46,6 +51,12 @@ The analysis is built on a **star schema** consisting of:
   - [measure_exploration.sql](scripts/measure_exploration.sql)
   - [magnitude_analysis.sql](scripts/magnitude_analysis.sql)
   - [ranking_analysis.sql](scripts/ranking_analysis.sql)
+  - [change_over_time_analysis.sql](scripts/change_over_time_analysis.sql)
+  - [cumulative_analysis.sql](scripts/cumulative_analysis.sql)
+  - [performance_analysis.sql](scripts/pereformance_analysis.sql)
+  - [part_to_whole_analysis.sql](scripts/part_to_whole_analysis.sql)
+  - [data_segmentation.sql](scripts/data_segmentation.sql)
+
 
 - **docs**
   - [Gold Layer Sales Star Schema Model](docs/Gold_Layer_Sales_Star_Schema_Model.png)
@@ -62,13 +73,49 @@ The analysis is built on a **star schema** consisting of:
 - Computing core business KPIs
 - Comparing metrics across categories and regions
 - Ranking products and customers by performance
+- Tracking trends and seasonality (Change-Over-Time Analysis)
+- Calculating cumulative totals over time (Cumulative Analysis)
+- Comparing current metrics against benchmarks or previous periods (Performance Analysis)
+- Determining contribution of parts to whole (Part-to-Whole Analysis)
+- Grouping data into segments based on behavior or ranges (Data Segmentation)
+
+---
+
+# 🧑‍🤝‍🧑 Customer Report
+
+## Purpose
+- This report consolidates key customer metrics and behaviors.
+
+## Highlights
+1. Gathers essential fields such as names, ages, and transaction details.
+2. Segments customers into categories (**VIP, Regular, New**) and age groups.
+3. Aggregates customer-level metrics:
+   - Total orders
+   - Total sales
+   - Total quantity purchased
+   - Total products
+   - Lifespan (in months)
+4. Calculates key KPIs:
+   - Recency (months since last order)
+   - Average order value
+   - Average monthly spend
+
+---
+
+# 📦 Product Report
+
+## Purpose
+
+
+## Highlights
+
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **MySQL**
-- **SQL** (aggregations, joins, window functions)
+- **SQL** (aggregations, joins, window functions, CTEs)
 - **Git & GitHub**
 - **VS Code**
 - **CSV datasets**
