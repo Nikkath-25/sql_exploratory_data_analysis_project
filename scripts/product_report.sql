@@ -21,6 +21,7 @@ Highlights:
 ===========================================================================================
 */
 
+CREATE VIEW gold_layer.report_products AS
 WITH base_query AS(
 /*-----------------------------------------------------------------------------------------
 1) Base Query: Retrives core columns from fact_sales and dim_products
