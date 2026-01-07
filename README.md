@@ -56,6 +56,8 @@ The analysis is built on a **star schema** consisting of:
   - [performance_analysis.sql](scripts/pereformance_analysis.sql)
   - [part_to_whole_analysis.sql](scripts/part_to_whole_analysis.sql)
   - [data_segmentation.sql](scripts/data_segmentation.sql)
+  - [customer_report.sql](scripts/customer_report.sql)
+  - [product_report.sql](scripts/product_report.sql)
 
 
 - **docs**
@@ -105,10 +107,21 @@ The analysis is built on a **star schema** consisting of:
 # 📦 Product Report
 
 ## Purpose
-
+- This report consolidates key customer metrics and behaviors.
 
 ## Highlights
-
+1. Gathers essential fields such as product name, category, subcategory, and cost.
+2. Segments products by revenue to identify **High-Performers, Mid-Range, or Low-Performers**. 
+3. Aggregates product-level metrics:
+   - Total orders
+   - Total sales
+   - Total quantity sold
+   - Total customers(unique)
+   - Lifespan (in months)
+4. Calculates key KPIs:
+   - Recency (months since last order)
+   - Average order revenue
+   - Average monthly revenue
 
 ---
 
